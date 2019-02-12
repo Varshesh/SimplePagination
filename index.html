@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="paginator">
+        <div class="seeAll">
+            <span id="totalArticles">9 artículos</span>
+        </div>
+        <div class="controlPage">
+            <ul class="customPagination">
+                <div class="pagination">
+                    <a id="first" onclick="onFirstClick()" class="linksPags" href="javascript:void(0);">
+                        <span>&lt;</span>
+                        <span>&lt;</span>
+                    </a>&nbsp;&nbsp;
+                    <a id="prev" onclick="onPrevClick()" class="linksPags" href="javascript:void(0);">
+                        <span>&lt;</span>
+                    </a>&nbsp;&nbsp;
+                    <span id="numberlist">
+
+                    </span>
+                    <!-- <a class="numLinks" id="numLinks" href="javascript:void(0);">1</a>&nbsp;&nbsp; -->
+                    <a id="next" onclick="onNextClick()" class="linksPags" href="javascript:void(0);">
+                        <span>&gt;</span>
+                    </a>&nbsp;&nbsp;
+                    <a id="last" onclick="onLastClick()" class="linksPags" href="javascript:void(0);">
+                        <span>&gt;</span>
+                        <span>&gt;</span>
+                    </a>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
